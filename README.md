@@ -4,18 +4,31 @@ Laravel Backend + React Forntend + SQLite Database Project
 
 ## Project Structure
 
-Backend/   → Laravel(PHP + SQLite)
+- **backend/** → Laravel(PHP + SQLite)
 
-Frontend/  → React
+- **frontend/** → React
 
 
-## Backend Installation 
+### Backend Installation 
 
-**Terminal 1 – Backend**
-```bash
-cd backend nyea-backend/README.md
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 
-cd nyea-frontend/README.md
+For detailed backend instructions, click → nyea-backend/README.md
+
+cd frontend
+npm install
+npm run dev
+
+For detailed backend instructions, click → nyea-frontend/README.md
+
+
+
+
 
 
 
