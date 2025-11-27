@@ -13,16 +13,10 @@ Frontend/  → React
 
 **Terminal 1 – Backend**
 ```bash
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
+cd backend nyea-backend/README.md
 
-cd frontend
-npm install
-npm run dev
+cd nyea-frontend/README.md
+
 
 
 
